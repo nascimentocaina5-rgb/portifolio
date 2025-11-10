@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    top: 0%;    
+    left: 0%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.align_centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 13px;
+    color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 32px;
+}
+
+main {
+    color: wheat;
+    text-align: center;
+}
+
+fieldset{
+    border-style: hidden;
+}
+
+legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+label {display: flex;}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 4px;
+}
+
+input[type=tel] {
+    width: 30%;
+    padding: 12px;
+    margin-left: auto;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    border-radius: 4px;
+}
+div {
+    text-align: left;
+}
+
+textarea {
+    min-width: 50%;
+    height: 300px;
+    border-radius: 4px;
+}
